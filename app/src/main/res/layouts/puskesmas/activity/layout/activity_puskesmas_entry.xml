@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="viewModel"
+            type="com.emovakemenkes.framework.mvvm.ui.puskesmas.viewmodels.PuskesmasEntryFormViewModel" />
+
+    </data>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/smoth_grey"
+            android:orientation="vertical">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:background="@color/mid_green"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:elevation="5dp">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbars"
+                    style="@style/Toolbar"
+                    app:subtitleTextColor="@color/white"
+                    app:title="@string/global_puskesmas"
+                    app:titleTextAppearance="@style/Toolbar.TitleText"
+                    app:titleTextColor="@color/white" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/light_gray" />
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <com.stepstone.stepper.StepperLayout
+                    android:id="@+id/stepperLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:ms_stepperType="progress_bar" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</layout>

@@ -15,13 +15,16 @@
  */
 
 apply plugin: 'com.android.application'
-apply from: '../config/quality/quality.gradle'
+
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+//apply from: '../config/quality/quality.gradle'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
     defaultConfig {
-        applicationId "com.mindorks.framework.mvvm"
+        applicationId "com.emovakemenkes.framework.mvvm"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -48,6 +51,18 @@ android {
     dataBinding {
         enabled = true
     }
+    sourceSets {
+        main {
+            res.srcDirs =
+                    [
+                            file("src/main/res/layouts/main/").listFiles(),
+                            file("src/main/res/layouts/puskesmas/").listFiles(),
+                            file("src/main/res/layouts/").listFiles(),
+                            'src/main/res/layouts',
+                            'src/main/res'
+                    ]
+        }
+    }
 }
 
 dependencies {
@@ -67,6 +82,8 @@ dependencies {
 
     // database
     implementation "androidx.room:room-rxjava2:$rootProject.roomDatabaseVersion"
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     annotationProcessor "androidx.room:room-compiler:$rootProject.roomDatabaseVersion"
 
     // font
@@ -107,12 +124,28 @@ dependencies {
     androidTestImplementation "androidx.test.espresso:espresso-intents:$rootProject.espressoVersion"
     androidTestImplementation "org.mockito:mockito-core:$rootProject.mockitoVersion"
     androidTestAnnotationProcessor "com.google.dagger:dagger-compiler:$rootProject.dagger2Version"
+    //kotlin
 
+    //shimmwe
+    implementation 'com.facebook.shimmer:shimmer:0.1.0@aar'
+
+    //bootstrap
+    implementation 'com.beardedhen:androidbootstrap:2.3.2'
+
+    //stepper
+    implementation 'com.stepstone.stepper:material-stepper:4.3.1'
     // view model
     implementation "androidx.lifecycle:lifecycle-extensions:$rootProject.lifecycleVersion"
     annotationProcessor "androidx.lifecycle:lifecycle-compiler:$rootProject.lifecycleVersion"
+    implementation "androidx.core:core-ktx:+"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
+
 
 configurations.all {
     resolutionStrategy.force 'com.google.code.findbugs:jsr305:1.3.9'
+}
+repositories {
+    mavenCentral()
 }

@@ -15,7 +15,7 @@
   -->
 
 <resources>
-    <string name="app_name">MvvmApp</string>
+    <string name="app_name">Emova</string>
 
     <!--Toolbar menus-->
     <string name="clear">Clear</string>
@@ -41,7 +41,7 @@
     <string name="connection_error">Internet connection lost!</string>
 
     <!--Login-->
-    <string name="login_dummy">Login Dummy</string>
+    <string name="login_dummy">Login</string>
     <string name="login">Login</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
@@ -83,4 +83,19 @@
     <string name="empty_screen">We do not have anything\nhere right now.</string>
     <string name="please_retry">Please Retry</string>
     <string name="retry">Retry</string>
+
+    <!--Global-->
+    <string name="global_puskesmas">Puskesmas</string>
+    <string name="global_rumahsakit">Rumah sakit</string>
+    <string name="global_ukotumot">UKOT / UMOT</string>
+    <string name="global_rtalkes">RT ALKES PKRT</string>
+
+    <!-- INFO-->
+    <string name="info_data_not_found">Your %1$s will appear here...</string>
+    <string name="no_internet">No Internet</string>
+
+<!--    MENU-->
+    <string name="bottom_menu_Home">Home</string>
+    <string name="bottom_menu_Notification">Notification</string>
+
 </resources>

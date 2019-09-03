@@ -19,4 +19,179 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="app_bar_height">0dp</dimen>
+    <dimen name="badge_text_size">11sp</dimen>
+
+    <!--padding-->
+    <dimen name="padding_xxxxxlarge">50dp</dimen>
+    <dimen name="padding_xxxxlarge">45dp</dimen>
+    <dimen name="padding_xxxlarge">35dp</dimen>
+    <dimen name="padding_xxlarge">30dp</dimen>
+    <dimen name="padding_xlarge">24dp</dimen>
+    <dimen name="padding_large">20dp</dimen>
+    <dimen name="padding_m">14dp</dimen>
+    <dimen name="padding_medium">12dp</dimen>
+    <dimen name="padding_normal">10dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_xsmall">6dp</dimen>
+    <dimen name="padding_xxsmall">4dp</dimen>
+    <dimen name="padding_xxxsmall">2dp</dimen>
+    <dimen name="padding_xxxxsmall">1dp</dimen>
+    <dimen name="content_margin">16dp</dimen>
+    <dimen name="content_margin_half">8dp</dimen>
+    <dimen name="content_margin_double">32dp</dimen>
+    <dimen name="unit_spacing">8dp</dimen>
+    <dimen name="padding_mini">2dp</dimen>
+
+    <!--text size-->
+    <dimen name="ts_xxxsmall">5sp</dimen>
+    <dimen name="ts_xxsmall">9sp</dimen>
+    <dimen name="ts_xsmall">11sp</dimen>
+    <dimen name="ts_small">13sp</dimen>
+    <dimen name="ts_default">14sp</dimen>
+    <dimen name="ts_medium">15sp</dimen>
+    <dimen name="ts_large">17sp</dimen>
+    <dimen name="ts_xlarge">19sp</dimen>
+    <dimen name="ts_xxlarge">21sp</dimen>
+    <dimen name="ts_xxxlarge">23sp</dimen>
+    <dimen name="ts_xxxxlarge">25sp</dimen>
+    <dimen name="ts_xxxxxlarge">30sp</dimen>
+    <dimen name="ts_signin_hi">45sp</dimen>
+
+    <!--stroke-->
+    <dimen name="st_xthin">0.5dp</dimen>
+    <dimen name="st_thin">1dp</dimen>
+    <dimen name="st_thick">2dp</dimen>
+
+    <dimen name="learning_rating_ts">35sp</dimen>
+    <dimen name="learning_tab_h">50dp</dimen>
+    <dimen name="balance_history_tab_h">45dp</dimen>
+    <dimen name="detail_tab_h">40dp</dimen>
+    <dimen name="competency_profile_tab_h">55dp</dimen>
+    <dimen name="home_tab_h">45dp</dimen>
+
+    <dimen name="common_margin">10dp</dimen>
+    <dimen name="et_size_default">60dp</dimen>
+    <dimen name="et_padding_default">5dp</dimen>
+    <dimen name="default_height_button">50dp</dimen>
+    <dimen name="default_height_edit_text">50dp</dimen>
+    <dimen name="bottom_next_register">20dp</dimen>
+
+    <dimen name="learning_video_h">300dp</dimen>
+    <dimen name="learning_video_timeline_h">340dp</dimen>
+    <dimen name="learning_video_detail_h">360dp</dimen>
+    <!--<dimen name="learning_title_m_t">290dp</dimen>-->
+    <dimen name="learning_title_h">70dp</dimen>
+    <dimen name="learning_detail_h">370dp</dimen>       learning_video_h + learning_title_h
+    <dimen name="learning_collapse_margin">5dp</dimen>
+    <dimen name="learning_main_content_h">600dp</dimen>
+    <dimen name="learning_button_w">150dp</dimen>
+    <dimen name="learning_button_h">50dp</dimen>
+    <dimen name="learning_button_left_p">20dp</dimen>
+    <dimen name="learning_elevation">4dp</dimen>
+    <dimen name="learning_elevation_large">7dp</dimen>
+    <dimen name="learning_elevation_bar">5dp</dimen>
+
+    <dimen name="learning_rating_percent_w">30dp</dimen>
+    <dimen name="learning_rating_star_w">12dp</dimen>
+    <dimen name="learning_instruction_icon_w">15dp</dimen>
+    <dimen name="learning_instruction_img_w">100dp</dimen>
+    <dimen name="learning_instruction_icon_p_t">6dp</dimen>
+    <dimen name="learning_home_course_w">150dp</dimen>
+    <dimen name="learning_course_img_h">120dp</dimen>
+    <dimen name="learning_video_img_h">200dp</dimen>
+    <dimen name="event_item_h">100dp</dimen>
+    <dimen name="event_item_w">300dp</dimen>
+
+    <dimen name="rating_view_m">@dimen/padding_xxsmall</dimen>
+    <dimen name="course_rating_view_h">12dp</dimen>
+
+    <dimen name="login_img_h">90dp</dimen>
+    <dimen name="comment_img_w">55dp</dimen>
+    <dimen name="comment_reply_img_w">40dp</dimen>
+    <dimen name="comment_reply_ic_w">17dp</dimen>
+    <dimen name="reply_love_ic_h">32dp</dimen>
+    <dimen name="profile_img_w">60dp</dimen>
+
+    <dimen name="my_course_item_r">5dp</dimen>
+    <dimen name="certificate_btn_r">7dp</dimen>
+    <dimen name="certificate_r">3dp</dimen>
+    <dimen name="review_course_img_w">45dp</dimen>
+    <dimen name="archive_btn_w">30dp</dimen>
+    <dimen name="image_navbar">64dp</dimen>
+
+    <dimen name="image_my_review_w">60dp</dimen>
+    <dimen name="image_purchase_history_w">70dp</dimen>
+    <dimen name="image_certificate_w">60dp</dimen>
+    <dimen name="btn_r_xlarge">10dp</dimen>
+    <dimen name="btn_r_large">7dp</dimen>
+    <dimen name="btn_r_small">5dp</dimen>
+    <dimen name="btn_r_xsmall">3dp</dimen>
+    <dimen name="btn_r_xxsmall">2dp</dimen>
+    <dimen name="register_label_text">16dp</dimen>
+    <dimen name="invoice_status_w">70dp</dimen>
+
+    <dimen name="purchase_detail_value_ts">@dimen/ts_large</dimen>
+    <dimen name="certificate_ic_h">30dp</dimen>
+    <dimen name="register_btn_r">6dp</dimen>
+
+    <dimen name="lesson_icon_w">24dp</dimen>
+    <dimen name="my_course_img_w">75dp</dimen>
+    <dimen name="badge_text_sizes">@dimen/ts_default</dimen>
+    <dimen name="trophy_ic_w">25dp</dimen>
+    <dimen name="category_item_h">100dp</dimen>
+    <dimen name="category_item_w">120dp</dimen>
+    <dimen name="learning_instruction_chat_margin_top">65dp</dimen>
+    <dimen name="learning_instruction_chat_margin_left">75dp</dimen>
+    <dimen name="progress_bar_h">15dp</dimen>
+
+    <dimen name="ogf_dialog_w">350dp</dimen>
+    <dimen name="dialog_w">270dp</dimen>
+    <dimen name="dialog_h">400dp</dimen>
+    <dimen name="dialog_ic_check">90dp</dimen>
+    <dimen name="shimmer_w_1">20dp</dimen>
+    <dimen name="shimmer_w_2">40dp</dimen>
+    <dimen name="shimmer_w_3">60dp</dimen>
+    <dimen name="shimmer_w_4">80dp</dimen>
+    <dimen name="shimmer_w_5">100dp</dimen>
+    <dimen name="shimmer_w_6">120dp</dimen>
+    <dimen name="shimmer_w_7">140dp</dimen>
+    <dimen name="shimmer_w_8">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="event_detail_img_h">280dp</dimen>
+    <dimen name="video_no_thumb_w">55dp</dimen>
+    <dimen name="ic_drawable_h">35dp</dimen>
+    <dimen name="dimens_default_form">20dp</dimen>
+
+    <dimen name="profile_radar_view_pager_h">490dp</dimen>
+    <dimen name="profile_radar_w">300dp</dimen>
+    <dimen name="profile_radar_h">400dp</dimen>
+    <dimen name="detail_competency_btn_h">60dp</dimen>
+    <dimen name="detail_competency_btn_h_half">30dp</dimen>
+    <dimen name="radar_margin_top">50dp</dimen>
+    <dimen name="main_profile_radar_h">250dp</dimen>
+    <dimen name="main_radar_margin_top">50dp</dimen>
+    <dimen name="ic_competency_dictionary_h">60dp</dimen>
+    <dimen name="ic_competency_h">40dp</dimen>
+    <dimen name="cmpt_dictionary_item_h">150dp</dimen>
+    <dimen name="cmpt_progressbar_h">15dp</dimen>
+
+    <dimen name="ic_on_going_feedback_w">70dp</dimen>
+    <dimen name="ic_list_item_on_going_feedback_w">40dp</dimen>
+    <dimen name="on_going_feedback_profile">60dp</dimen>
+    <dimen name="on_going_feedback_profile_margin_start">30dp</dimen>
+    <dimen name="on_going_feedback_profile_margin_top">40dp</dimen>
+
+    <dimen name="action_bar_h">56dp</dimen>
+    <dimen name="min_height_company_profile_actionbar_h">106dp</dimen> action_bar_h + learning_tab_h
+    <dimen name="side_sheet_peek_width_min">64dp</dimen>
+    <dimen name="company_profile_ic_w">20dp</dimen>
+    <dimen name="company_profile_img_w">100dp</dimen>
+    <dimen name="company_profile_banner_h">120dp</dimen>
+    <dimen name="company_profile_banner_h_half">60dp</dimen>
+    <dimen name="company_profile_post_account_img">50dp</dimen>
+    <dimen name="company_profile_post_img_h">230dp</dimen>
+    <dimen name="company_profile_post_ic_w">25dp</dimen>
+    <dimen name="company_profile_people_account_img_h">75dp</dimen>
+    <dimen name="company_profile_people_ic_w">15dp</dimen>
+
 </resources>
